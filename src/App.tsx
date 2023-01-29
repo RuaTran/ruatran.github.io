@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter } from "react-router-dom";
 import { ChakraProvider, Box} from '@chakra-ui/react'
 import Navbar from './pages/NavBar';
 import Intro from './pages/Intro';
@@ -13,7 +14,7 @@ function App() {
   return (
     <ChakraProvider>
       <div className="App">
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={
               <Box bgGradient='linear(to-b, #100216, #250836, #100216)'>
@@ -25,7 +26,7 @@ function App() {
                 <Endpoint />
               </Box>} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </ChakraProvider>
   );
