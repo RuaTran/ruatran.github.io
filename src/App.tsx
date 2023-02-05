@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <HashRouter>
           <Routes>
-            <Route path="/" element={
+            <Route path="" element={
               <Box bgGradient='linear(to-b, #100216, #250836, #100216)'>
                 <Navbar />
                 <Intro />
