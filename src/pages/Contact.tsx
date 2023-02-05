@@ -13,7 +13,7 @@ export default function Contact() {
                     <p className="intro-3"> 
                         Currently looking for new career opportunities in the field! If you want to get in touch with me or have any questions, feel free to shoot me an message and I'll get back to you.
                     </p>
-                    <Button mt={{base: '50px'}}><a href="mailto:dmchristran@gmail.com">Email Me</a></Button>
+                    <Button color={'black'} mt={{base: '50px'}}><a href="mailto:dmchristran@gmail.com">Email Me</a></Button>
                 </Box>
             </Box>
         </Box>
