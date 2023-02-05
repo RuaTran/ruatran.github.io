@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cdaf26c.css",
-    "main.js": "/static/js/main.ecdd97c4.js",
+    "main.css": "/static/css/main.f265e18f.css",
+    "main.js": "/static/js/main.e13c01c3.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
@@ -9,12 +9,12 @@
     "static/media/LeagueSpartan-Bold.otf": "/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "static/media/CT.svg": "/static/media/CT.dcbe345a906d31c366a428b7ff68ff28.svg",
     "index.html": "/index.html",
-    "main.2cdaf26c.css.map": "/static/css/main.2cdaf26c.css.map",
-    "main.ecdd97c4.js.map": "/static/js/main.ecdd97c4.js.map",
+    "main.f265e18f.css.map": "/static/css/main.f265e18f.css.map",
+    "main.e13c01c3.js.map": "/static/js/main.e13c01c3.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cdaf26c.css",
-    "static/js/main.ecdd97c4.js"
+    "static/css/main.f265e18f.css",
+    "static/js/main.e13c01c3.js"
   ]
 }
