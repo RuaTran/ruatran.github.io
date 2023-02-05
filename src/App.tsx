@@ -14,7 +14,7 @@ function App() {
   return (
     <ChakraProvider>
       <div className="App">
-        <HashRouter>
+      <BrowserRouter>
           <Routes>
             <Route path="" element={
               <Box bgGradient='linear(to-b, #100216, #250836, #100216)'>
@@ -26,7 +26,7 @@ function App() {
                 <Endpoint />
               </Box>} />
           </Routes>
-        </HashRouter>
+          </BrowserRouter>
       </div>
     </ChakraProvider>
   );
