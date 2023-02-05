@@ -7,7 +7,7 @@ export default function Projects() {
             <Box ml={{base: '20px', md:'17.5%'}} mr={{base: '20px', md:'17.5%'}} mb={{base: '120px', md:'22.5%'}} mt={{base: '120px', md:'22.5%'}} pt={{base: '0px', md:'200'}}>
             <span className="intro-1">Completed Projects</span>
             <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(300px, 1fr))'>
-                <Card backgroundColor={'#100216'} color={'#FFFFFF'} textAlign={{base: 'center', md:'left'}}>
+                <Card backgroundColor={'#100216'} textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
                     <Heading size='md' > QR Code Ticketing System</Heading>
                     </CardHeader>
