@@ -8,7 +8,7 @@ export default function About() {
 
     return (
         <Box className='about' id='about'>
-            <Box ml={{base: '25px', md:'25%'}} mr={{base: '10px', md:'25%'}} mb={{base: '120px', md:'20.5%'}} mt={{base: '120px', md:'20.5%'}}>
+            <Box ml={{base: '25px', md:'25%'}} mr={{base: '10px', md:'25%'}} mb={{base: '120px', md:'22.5%'}} mt={{base: '120px', md:'22.5%'}} pt={{base: '0px', md:'200'}}>
                 <Grid templateRows={{ sm: 'repeat(2, 1fr)', md: 'none' }} templateColumns={{ sm: 'none', md: 'repeat(7, 1fr)' }} gap={4} className="aligh-items-center">
                     <GridItem colSpan={4} >
                         <Box textAlign={{base: 'left', md:'left'}}>

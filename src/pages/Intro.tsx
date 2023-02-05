@@ -7,7 +7,7 @@ export default function Intro() {
 
     return (
         <Box className='intro' id='intro' >
-            <Box ml={{base: '0px', md:'17.5%'}} mr={{base: '0px', md:'17.5%'}} mb={{base: '120px', md:'20.5%'}} >
+            <Box ml={{base: '0px', md:'17.5%'}} mr={{base: '0px', md:'17.5%'}} mb={{base: '120px', md:'22.5%'}} mt={{base: '120px', md:'16.5%'}} >
                 <Box textAlign={{base: 'left', md:'left'}} p={[10, 25, 25, 25]}  className={"animate__animated animate__fadeIn"}>
                     <span className="intro-1"><WavyText delay={0} duration= {0.02}text="Hello, my name is" replay={replay} /></span>
                     <h1 className="intro-2"><WavyText delay={0.5} duration= {0.02} text="Christopher Tran." replay={replay} /></h1>

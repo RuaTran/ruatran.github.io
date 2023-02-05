@@ -46,7 +46,7 @@
     margin: 0;
     line-height: normal;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 1.7vh;
   }
   p, li, button, ul {
     color: rgb(175, 175, 175);
@@ -55,7 +55,7 @@
     padding: 10px 0px 0px 0px;
     line-height: normal;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 1.7vh;
   }
   
   a:hover {
@@ -195,7 +195,6 @@
 
 /*** content ***/
 .intro{
-  padding: 190px 0 0 0;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -203,28 +202,28 @@
 .intro-1{
   color: rgb(211, 228, 150);
   font-weight: 100;
-  font-size: 3vh;
+  font-size: 4vh;
   font-family: Montserrat;
 }
 
 .intro-2{
-  font-size: 30px;
+  font-size: 4vh;
   font-family: LeagueSpartan;
   margin-top: 10px;
 }
 
 .intro-3{
   color: rgb(175, 175, 175);
-  font-size: 2.5vh;
+  font-size: 3vh;
   font-family: LeagueSpartan;
   margin-top: 10px;
 }
 
 .details{
   color: rgb(175, 175, 175);
-  font-size: 1.3vh;
+  font-size: 1.2vh;
   font-family: LeagueSpartan;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .project-card{
   background-color: #120216;

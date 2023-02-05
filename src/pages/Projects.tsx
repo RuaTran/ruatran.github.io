@@ -4,9 +4,9 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 export default function Projects() {
     return (
         <Box className='projects' id='projects' >
-            <Box ml={{base: '20px', md:'17.5%'}} mr={{base: '20px', md:'17.5%'}} mb={{base: '120px', md:'20.5%'}} >
+            <Box ml={{base: '20px', md:'17.5%'}} mr={{base: '20px', md:'17.5%'}} mb={{base: '120px', md:'22.5%'}} mt={{base: '120px', md:'22.5%'}} pt={{base: '0px', md:'200'}}>
             <span className="intro-1">Completed Projects</span>
-            <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
+            <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(300px, 1fr))'>
                 <Card backgroundColor={'#100216'} textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
                     <Heading size='md' > QR Code Ticketing System</Heading>
@@ -23,7 +23,7 @@ export default function Projects() {
                             </List>
                     </CardBody>
                     <CardFooter>
-                    <Button><a href="https://github.com/RuaTran">Learn More</a></Button>
+                    <Button><a href="https://github.com/RuaTran/QR-Code-Ticketing">Learn More</a></Button>
                     </CardFooter>
                 </Card>
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
@@ -42,7 +42,7 @@ export default function Projects() {
                             </List>
                     </CardBody>
                     <CardFooter>
-                    <Button><a href="https://github.com/RuaTran">Learn More</a></Button>
+                    <Button ><a href="https://github.com/RuaTran/rhythm-tengoku-spinoff">Learn More</a></Button>
                     </CardFooter>
                 </Card>
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
@@ -61,7 +61,7 @@ export default function Projects() {
                             </List>
                     </CardBody>
                     <CardFooter>
-                    <Button><a href="https://github.com/RuaTran">Learn More</a></Button>
+                    <Button><a href="https://github.com/RuaTran/rsa-encryption-tool">Learn More</a></Button>
                     </CardFooter>
                 </Card>
                 </SimpleGrid>

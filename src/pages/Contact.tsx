@@ -6,7 +6,7 @@ export default function Contact() {
 
     return (
         <Box className='contact' id='contact' >
-            <Box ml={{base: '0px', md:'17.5%'}} mr={{base: '0px', md:'17.5%'}} mb={{base: '120px', md:'20.5%'}}>
+            <Box ml={{base: '0px', md:'17.5%'}} mr={{base: '0px', md:'17.5%'}} mb={{base: '120px', md:'14.5%'}} mt={{base: '120px', md:'22.5%'}} pt={{base: '0px', md:'200'}}>
                 <Box textAlign={{base: 'center', md:'center'}} p={[10, 35, 35, 35]}  className={"animate__animated animate__fadeIn"}>
                     <span className="intro-1">Contact Information</span>
                     <h1 className="intro-2">Thanks for getting to know me.</h1>
