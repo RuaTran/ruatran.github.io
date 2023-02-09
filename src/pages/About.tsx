@@ -9,7 +9,7 @@ export default function About() {
     return (
         <Box className='about' id='about'>
             <Box ml={{base: '25px', md:'25%'}} mr={{base: '10px', md:'25%'}} mb={{base: '120px', md:'22.5%'}} mt={{base: '120px', md:'22.5%'}} pt={{base: '0px', md:'200'}}>
-                <Grid templateRows={{ sm: 'repeat(2, 1fr)', md: 'none' }} templateColumns={{ sm: 'none', md: 'repeat(7, 1fr)' }} gap={4} className="aligh-items-center">
+                <Grid templateRows={{ sm: 'repeat(2, 1fr)', md: 'none' }} templateColumns={{ sm: 'none', lg: 'repeat(8, 1fr)' }} gap={4} className="aligh-items-center">
                     <GridItem colSpan={4} >
                         <Box textAlign={{base: 'left', md:'left'}}>
                             <span className="intro-1">Who am I?</span>
@@ -36,16 +36,15 @@ export default function About() {
                                     <ListIcon as={CheckIcon} color='green.500' />
                                     Data/Tools: MySQL, OAuth2.0, Git, Linux
                                     </ListItem>
-                                {/* You can also use custom icons from react-icons */}
                                 <ListItem>
                                     <ListIcon as={CheckIcon} color='green.500' />
-                                    Misc: Photoshop, Premiere, Excel, Word
+                                    Misc: ServiceNow, Photoshop, Premiere, Excel, Word
                                     </ListItem>
                             </List>
                         </Box>
                     </GridItem>
                     <GridItem colSpan={3} >
-                        <Image src={myPic} alt='Header Img'/>
+                        <Image ml={{base: '18%', md:'25%'}} src={myPic} alt='Header Img'/>
                     </GridItem>
                 </Grid>
             </Box>

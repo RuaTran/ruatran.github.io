@@ -12,7 +12,7 @@ export default function Intro() {
                     <span className="intro-1"><WavyText delay={0} duration= {0.02}text="Hello, my name is" replay={replay} /></span>
                     <h1 className="intro-2"><WavyText delay={0.5} duration= {0.02} text="Christopher Tran." replay={replay} /></h1>
                     <p className="intro-3"> 
-                        I'm an aspiring software engineer based in the Silicon Valley, and I enjoy learning industry skills in frontend and backend development and applying them to personal and professional projects.
+                        I'm an aspiring software engineer based in the Silicon Valley, and I enjoy learning new programming skills in frontend and backend development and incorporating them to my personal and professional projects.
                     </p>
                 </Box>
             </Box>

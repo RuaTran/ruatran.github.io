@@ -84,7 +84,7 @@ export default function NavBar() {
             </Box>
 
             {<Button minWidth='140px' display={{ base: 'none', md: 'flex' }} backgroundColor={'transparent'} className="navbar-button" >
-              <Link className='intro-3' padding={[0, 0, 0, 0]} href='https://drive.google.com/uc?export=download&id=1RMHPRTLswuDfFIynJGyQBdaTd9p4WRMm' _hover={{ textDecoration: 'none' }} >Resume</Link>
+              <Link className='intro-3' fontSize='1vw' padding={[0, 0, 0, 0]} href='https://drive.google.com/uc?export=download&id=1RMHPRTLswuDfFIynJGyQBdaTd9p4WRMm' _hover={{ textDecoration: 'none' }} >Resume</Link>
             </Button>}
             <IconButton _hover={{ bg: "rgba(67, 27, 92, 0.4)" }} borderColor='#431b5c' bg={'transparent'} variant='outline' size={'lg'}
               icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={'Open Menu'} display={{ md: 'none' }} onClick={isOpen ? onClose : onOpen} />
@@ -92,7 +92,7 @@ export default function NavBar() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }} backgroundColor='black' rounded='30px' pt='15px'>
+          <Box pb={4} display={{ md: 'none' }} backgroundColor='black' rounded='10px' pt='20px'>
             <Stack as={'nav'} spacing={4} alignItems='center'>
               {mobileNavbarPaths.map((path) => { return (<Link href={path.link} className={activeLink === path.label ? 'active navbar-link' : 'navbar-link'} onClick={isOpen ? onClose : onOpen} _hover={{ textDecoration: 'none', opacity: 1, }}>{path.label}</Link>) })}
 

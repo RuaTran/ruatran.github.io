@@ -192,6 +192,26 @@
       height: 100%;
       position: absolute;
   }
+/*** borders ***/
+.line-1{
+  position: fixed;
+  border-right: 2px solid #888;
+  display: block;
+  height: 15%;
+  right: 4%;
+  bottom: 0%;
+  width: 1px;
+}
+
+.line-2{
+  position: fixed;
+  border-right: 2px solid #AAA;
+  display: block;
+  height: 15%;
+  left: 4%;
+  bottom: 0%;
+  width: 1px;
+}
 
 /*** content ***/
 .intro{
@@ -228,3 +248,20 @@
 .project-card{
   background-color: #120216;
 }
+
+.project-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+  bottom: 0;
+}
+
+.project-tag{
+  font-family: LeagueSpartan;
+  font-size: 1.2vh;
+  background-color: #1c0925;
+  padding: 3px 6px; 
+  border-radius: 5px 5px 5px 5px;
+}
+

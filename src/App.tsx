@@ -3,7 +3,9 @@ import { HashRouter } from "react-router-dom";
 import { ChakraProvider, Box} from '@chakra-ui/react'
 import Navbar from './pages/NavBar';
 import Intro from './pages/Intro';
+import Borders from './pages/Borders';
 import About from './pages/About';
+import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Endpoint from './pages/Endpoint';
@@ -21,6 +23,7 @@ function App() {
                 <Navbar />
                 <Intro />
                 <About />
+                <Experience />
                 <Projects />
                 <Contact />
                 <Endpoint />
