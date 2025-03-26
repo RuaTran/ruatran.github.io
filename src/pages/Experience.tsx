@@ -13,8 +13,32 @@ export default function Experience() {
                 <Grid templateRows={{ sm: 'repeat(2, 1fr)', md: 'none' }} templateColumns={{ sm: 'none', lg: 'repeat(8, 1fr)' }} gap={4} className="aligh-items-center">
                     <GridItem colSpan={4} >
                         <Box textAlign={{base: 'left', md:'left'}}>
+                            <p className="intro-3">Materials Coordinator</p>
+                            <p className="details">MAY 2024 - DEC 2024</p> 
+                            <p>
+                                At Applied Materials, worked with a small team to automate synchronization of materials RFID tracking processes between MCs and PSS for SmartSheet.
+                            </p>
+                            <p>
+                                Created multiplatform search tool to aide co-workers in searching SAP, previous record purchasing records, and suppliers for part lead times and prices.
+                            </p>
+                        </Box>
+                    </GridItem>
+                    <GridItem colSpan={4} >
+                        <Box textAlign={{base: 'left', md:'left'}}>
+                            <p className="intro-3">IT Specialist/Medical Scribe</p>
+                            <p className="details">MAY 2023 - MAY 2024</p> 
+                            <p>
+                                At McCarthy Medical Center, I aided in transitioning business from physical documentation to OfficeAlly EHR and Cozeva. Implemented a basic OCR system for electronically received faxes to be filtered into different categories to allow for easier filing.
+                            </p>
+                            <p>
+                                Took visitation notes for physical examination appointments with doctor and helped with maintain/update patient records. 
+                            </p>
+                        </Box>
+                    </GridItem>
+                    <GridItem colSpan={4} >
+                        <Box textAlign={{base: 'left', md:'left'}}>
                             <p className="intro-3">IT Support Specialist</p>
-                            <p className="details">JUL 2021 - DEC 2022</p> 
+                            <p className="details">JUL 2021 - MAY 2023</p> 
                             <p>
                                 At University of California Santa Cruz, I worked together with IT staff to help students and staff around campus diagnose and resolve hardware and software issues with their PC/macOS workstations. Daily duties consisted of communicating with clients via phone, email, ServiceNow in order to create and resolve tickets with team.
                             </p>

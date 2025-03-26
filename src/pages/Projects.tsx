@@ -10,7 +10,7 @@ export default function Projects() {
                 
                 <Card backgroundColor={'#100216'} textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' > QR Code Ticketing System</Heading>
+                    <Heading size='md' className="project-card"> QR Code Ticketing System</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>
@@ -40,7 +40,7 @@ export default function Projects() {
 
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' >RSA Public Key Cryptography</Heading>
+                    <Heading size='md' className="project-card" >RSA Public Key Cryptography</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>
@@ -63,7 +63,7 @@ export default function Projects() {
 
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' >2D Skeletal Animation Library and Game Engine</Heading>
+                    <Heading size='md' className="project-card" >2D Skeletal Animation Library and Game Engine</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>
@@ -84,7 +84,7 @@ export default function Projects() {
 
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' >みんなのリズム天国 Homage</Heading>
+                    <Heading size='md' className="project-card" >みんなのリズム天国 Homage</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>
@@ -106,7 +106,7 @@ export default function Projects() {
 
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' >Huffman Coding and Image Cryptography Tool</Heading>
+                    <Heading size='md' className="project-card" >Huffman Coding and Image Cryptography Tool</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>
@@ -128,7 +128,7 @@ export default function Projects() {
 
                 <Card backgroundColor={'#100216'}  textAlign={{base: 'center', md:'left'}}>
                     <CardHeader>
-                    <Heading size='md' >Portfolio Website</Heading>
+                    <Heading size='md' className="project-card" >Portfolio Website</Heading>
                     </CardHeader>
                     <CardBody>
                     <List spacing={1} textAlign={{base: 'left', md:'left'}}>

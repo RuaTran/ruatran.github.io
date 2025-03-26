@@ -48,7 +48,7 @@
     text-decoration: none;
     font-size: 1.7vh;
   }
-  p, li, button, ul {
+  p, li, ul {
     color: rgb(175, 175, 175);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -84,6 +84,10 @@
   }
 
   /************ Navbar Css ************/
+.hamburger-icon {
+  color: #fff;
+}
+
 .navbar {
     padding: 0 0;
     position: fixed;
@@ -103,23 +107,24 @@
   
   .navbar-link {
     font-weight: 400;
-    color: #fff !important;
+    color: #888; /* Default lighter color */
     letter-spacing: 0.8px;
     padding: 0 25px;
     font-size: 18px;
     opacity: 0.65;
-  }
-  
-  navbar-link:hover,
-  .active {
-      opacity: 1;
-  }
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover */
+}
 
-  .social-icon {
+.navbar-link:hover {
+    color: #ffffff; /* Darker color on hover */
+    opacity: 1; /* Optional: Make it fully opaque on hover */
+}
+
+.social-icon {
       display: inline-block;
       margin-left: 14px;
-  }
-  .social-icon a {
+}
+.social-icon a {
       width: 50px;
       height: 60px;
       background: rgba(217, 217, 217, 0.1);
@@ -131,67 +136,46 @@
       line-height: 1;
       clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0%);
       /*border: 1px solid rgba(255, 255, 255, 0.2);*/
-  }
-  .social-icon a::before {
-      content: "";
-      width: 50px;
-      height: 60px;
-      position: absolute;
-      background-color: #ffffff;
-      border-radius: 30%;
-      opacity: 0%;
-      transform: scale(0);
-      transition: 1.0s ease-in-out;
-  }
-  .social-icon a:hover::before {
-      transform: scale(1.5) rotate(500deg);
-      opacity: 100%;
-  }
-  .social-icon a img {
-      width: 40%;
-      transition: 1.0s ease-in-out;
-  }
-  .social-icon a:hover img {
-      filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-  }
-  .navbar-button {
-      font-weight: 700;
-      color: #fff;
-      border: 1px solid #fff;
-      padding: 18px 34px;
-      font-size: 18px;
-      margin-left: 25px;
-      position: relative;
-      background-color: transparent;
-      transition: 0.3s ease-in-out;
-  }
-  .navbar-button span {
-      z-index: 1;
-  }
-  .navbar-button::before {
-      content: "";
-      opacity: 0%;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: rgb(255, 255, 255);
-      left: 0;
-      top: 0;
-      z-index: -1;
-      transition: 0.3s ease-in-out;
-  }
-  .navbar-button:hover {
-    color: #100216;
-    transition: 0.3s ease-in-out;
-  }
-  .navbar-button:hover::before {
-      content: "";
-      border-radius: 5px;
-      opacity: 100%;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-  }
+}
+.social-icon a::before {
+    content: "";
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 30%;
+    opacity: 0%;
+    transform: scale(0);
+    transition: 1.0s ease-in-out;
+}
+.social-icon a:hover::before {
+    transform: scale(1.5) rotate(500deg);
+    opacity: 100%;
+}
+.social-icon a img {
+    width: 40%;
+    transition: 1.0s ease-in-out;
+}
+.social-icon a:hover img {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+.navbar-button {
+  font-weight: 700;
+  color: #fff !important; /* Default lighter color */
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 25px;
+  position: relative;
+  background-color: transparent;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar-button:hover {
+    color: #100216 !important; /* Darker color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional hover background */
+}
+
 /*** borders ***/
 .line-1{
   position: fixed;
@@ -246,6 +230,7 @@
   margin-top: 15px;
 }
 .project-card{
+  color: rgb(175, 175, 175);
   background-color: #120216;
 }
 

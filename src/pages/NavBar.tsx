@@ -83,14 +83,14 @@ export default function NavBar() {
               {navbarPaths.map((path) => { return (<Link href={path.link} className={activeLink === path.label ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(path.label)} _hover={{ textDecoration: 'none', opacity: 1, }}>{path.label}</Link>) })}
             </Box>
 
-            {<Button minWidth='140px' display={{ base: 'none', md: 'flex' }} backgroundColor={'transparent'} className="navbar-button" >
-              <Link className='intro-3' fontSize='1vw' padding={[0, 0, 0, 0]} href='https://drive.google.com/uc?export=download&id=1RMHPRTLswuDfFIynJGyQBdaTd9p4WRMm' _hover={{ textDecoration: 'none' }} >Resume</Link>
+            {<Button className='navbar-button' minWidth='140px' display={{ base: 'none', md: 'flex' }} backgroundColor={'transparent'}  >
+              <Link fontSize='1vw' padding={[0, 0, 0, 0]} href='https://drive.google.com/uc?export=download&id=1RMHPRTLswuDfFIynJGyQBdaTd9p4WRMm' _hover={{ textDecoration: 'none' }} >Resume</Link>
             </Button>}
-            <IconButton _hover={{ bg: "rgba(67, 27, 92, 0.4)" }} borderColor='#431b5c' bg={'transparent'} variant='outline' size={'lg'}
+            
+            <IconButton className='hamburger-icon' _hover={{ bg: "rgba(67, 27, 92, 0.4)" }} borderColor='#431b5c' bg={'transparent'} variant='outline' size={'lg'}
               icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={'Open Menu'} display={{ md: 'none' }} onClick={isOpen ? onClose : onOpen} />
           </Flex>
         </Flex>
-
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }} backgroundColor='black' rounded='10px' pt='20px'>
             <Stack as={'nav'} spacing={4} alignItems='center'>
