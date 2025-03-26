@@ -230,7 +230,7 @@
   margin-top: 15px;
 }
 .project-card{
-  color: rgb(175, 175, 175);
+  color: rgb(175, 175, 175) !important;
   background-color: #120216;
 }
 
